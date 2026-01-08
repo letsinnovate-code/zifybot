@@ -7,7 +7,7 @@ import { TestimonialCardsOverride } from '@/components/TestimonialCardsOverride'
 // Toggle between layouts:
 // - 'figma': Uses exact Figma import with precise positioning (current design)
 // - 'simplified': Uses clean, responsive components (easier to maintain)
-const LAYOUT_MODE = 'figma';
+const LAYOUT_MODE: 'figma' | 'simplified' = 'figma';
 
 export default function Home() {
     if (LAYOUT_MODE === 'simplified') {
