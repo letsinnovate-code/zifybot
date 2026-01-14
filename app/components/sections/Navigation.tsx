@@ -19,9 +19,11 @@ export default function Navigation() {
             About
           </p>
         </Link>
-        <p className="absolute font-poppins font-normal leading-none left-[325.2px] not-italic text-[22.289px] text-white top-[25.46px]" data-node-id="1:116">
-          Feature
-        </p>
+        <Link href="/feature" className="absolute left-[325.2px] top-[25.46px] z-50">
+          <p className="font-poppins font-normal leading-none not-italic text-[22.289px] text-white cursor-pointer" data-node-id="1:116">
+            Feature
+          </p>
+        </Link>
         <div className="absolute font-poppins font-normal leading-none left-[475px] not-italic text-[22.289px] text-white top-[25.46px] whitespace-nowrap" data-node-id="1:117">
           <p className="mb-0">Contact Us</p>
           <p>&nbsp;</p>

@@ -16,4 +16,29 @@ export const Rout = ({
     );
 };
 
-export default Rout;
+
+
+
+export interface ImageProps {
+    className: string;
+    image: string;
+}
+
+export const Image = ({
+    className,
+    image = "https://c.animaapp.com/f2CTvWJD/img/rout.svg",
+}: ImageProps): JSX.Element => {
+    return (
+        <img
+            className={`absolute top-0 left-0 w-6 h-6 ${className}`}
+            alt="Rout"
+            src={image}
+        />
+    );
+};
+
+
+export default {
+    Rout,
+    Image
+}
