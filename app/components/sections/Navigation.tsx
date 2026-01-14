@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { images } from "../images";
 
 export default function Navigation() {
@@ -13,9 +14,11 @@ export default function Navigation() {
         <p className="absolute font-poppins font-normal leading-none left-[72px] not-italic text-[22.289px] text-white top-[25.46px]" data-node-id="1:114">
           Home
         </p>
-        <p className="absolute font-poppins font-normal leading-none left-[198.6px] not-italic text-[22.289px] text-white top-[25.46px]" data-node-id="1:115">
-          About
-        </p>
+        <Link href="/about" className="absolute left-[198.6px] top-[25.46px] z-50">
+          <p className="font-poppins font-normal leading-none not-italic text-[22.289px] text-white cursor-pointer" data-node-id="1:115">
+            About
+          </p>
+        </Link>
         <p className="absolute font-poppins font-normal leading-none left-[325.2px] not-italic text-[22.289px] text-white top-[25.46px]" data-node-id="1:116">
           Feature
         </p>
